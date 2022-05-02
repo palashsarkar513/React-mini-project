@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(13, 100, 177);
+    position: relative;
+}
+.container ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.container ul li{
+    list-style: none;
+    color: black;
+    padding: .4rem 1rem;
+}
+.container ul li:hover{
+    background-color: rgba(42, 128, 204, 0.452);
+}
+.container ul li a{
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.container ul li .active{
+    color: red;
+}

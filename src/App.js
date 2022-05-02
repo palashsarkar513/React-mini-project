@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// import PageApp from "./components/pages/PageApp";
+//import ToogleApp from "./components/Toogle/ToogleApp";
+//import SidebarApp from "./components/Sidebar/SidebarApp"
+//import RoutesApp from "./components/Routes/RoutesApp"
+import CrudeApp from "./components/Crude/CrudeApp"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+function App(){
+  
+  
+  return(
+    <div>
+      {/* <PageApp/> */}
+      {/* <ToogleApp/> */}
+      {/* <SidebarApp/> */}
+      {/* <RoutesApp/> */}
+      {<CrudeApp/>}
     </div>
-  );
+  )
 }
-
-export default App;
+export default App
